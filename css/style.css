@@ -1,0 +1,284 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--main-color);
+}
+:root{
+    --main-font:"Pacifico";
+    --sec-font:"Titillium";
+    --main-bg-color: #FFEDE6;    
+    --main-color: #734C4C; 
+    --nav-bg:#FFF8F3;
+    --nav-hover-color:#A76F6F;
+    --hover-btn-color:#C89282;
+    --placeholder-bg:#AD8679;
+    --before-section-bg:#FFF3EC;
+    --services-cards-bg-color:#FFF8F3;
+}
+
+::selection{
+    color: var(--main-bg-color);
+    background-color: var(--main-color);
+}
+
+
+
+.container{
+    width: 80% !important;
+}
+
+a{  
+    text-decoration: none;
+}
+
+/* ---------------------start nav------------------------- */
+
+nav{
+    background-color: var(--nav-bg);
+}
+nav .nav-link ,.navbar-brand{
+    color: var(--main-color);
+    transition: all 0.5s;
+}
+nav .nav-link:hover,
+nav .nav-link.active{
+    color: var(--nav-hover-color) !important;
+}
+
+nav .nav-link.sp{
+    background-color: var(--main-bg-color);
+    border-radius: 25px;
+
+}
+/* ---------------------end nav------------------------- */
+
+
+
+
+
+/* ---------------------start hero------------------------- */
+.hero{
+    background-color: var(--main-bg-color);
+}
+.hero .row .content h1{
+    font-family: var(--main-font);
+    font-size: 2.625rem;
+    padding-bottom: 50px;
+} 
+.hero .row .content a{
+    background-color: var(--main-color);
+    color: white;
+    font-family: var(--sec-font);
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1.5625rem;
+    transition: all 0.5s;
+}
+.hero .row .content a:hover{
+    background-color: var(--hover-btn-color);
+}
+
+/* ---------------------end hero------------------------- */
+
+
+/* ---------------------start services------------------------- */
+.services{
+    background-color: white;
+}
+.services h1{
+    font-family: var(--main-font);
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+.services .inner{
+    background-color: var(--services-cards-bg-color);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.03);
+    height: 300px;
+
+
+
+}
+
+.services .inner:hover {
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+    transform: scale(1.05);
+}
+
+.services i {
+    font-size: 32px;
+    color: var(--services-cards-bg-color);
+    background-color: var(--main-color);
+    padding: 12px 15px;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.services .inner .icon:hover i{
+    background-color: white;
+    color:var(--main-color)
+}
+
+
+
+/* ---------------------end services------------------------- */
+
+.before{
+    background-color: var(--main-bg-color);
+    text-align: center;
+}
+.before h1{
+    font-family: var(--main-font);
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+.before .inner .content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 25px;
+} 
+.before .inner img{
+    height: 300px;
+}
+
+
+/* ---------------------start before after------------------------ */
+
+
+
+/* ---------------------end before after------------------------ */
+
+
+
+/* ---------------------start test------------------------ */
+.test{
+    background-color: var(--main-bg-color);
+}
+.test h1{
+    font-family: var(--main-font);
+}
+.test .inner{
+    background-color: #FFF8F3;
+    border-radius: 25px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.03);
+
+}
+.test .inner .content{
+
+    color: #6E5A5A;
+    
+}
+.test a{
+    background-color: #D9AFA0;
+    color: white;
+    transition: all 0.5s;
+    border-radius: 12px;
+    padding: 12px 18px ;
+}
+
+.test a:hover{
+    background-color: #C89282;
+    color: white;
+}
+.test img{
+    height: 200px;
+}
+
+/* ---------------------end test------------------------ */
+
+
+/* ---------------------start contact------------------------ */
+
+.contact h1{
+    font-family: var(--main-font);
+}
+
+.contact .container{
+    width: 60% !important;
+}
+
+.contact .container textarea,
+.contact .container input,
+.contact .container select{
+    background-color: var(--main-bg-color);
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    border: 0;
+    font-family: var(--sec-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+.contact .container textarea:focus,
+.contact .container input:focus,
+.contact .container select:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+.contact .container form button{
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+
+
+}
+.contact .container form button:hover{
+    border: 1px solid var(--main-color);
+    color: var(--main-color);
+    background-color: white;
+}
+
+/* ---------------------end contact------------------------ */
+
+
+
+/* ---------------------start footer------------------------- */
+footer {
+    background-color: var(--nav-bg);
+    color: #FFF8F3;
+    padding: 40px 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.footer h4 {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    transition: color 0.3s ease;
+    color: var(--main-color);
+}
+
+.footer-links a:hover {
+    color: var(--nav-hover-color);
+}
+.footer-social i{
+    padding-left: 10px;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+    border-top: 1px solid #A76F6F;
+    padding-top: 20px;
+}
+
+/* ---------------------end footer------------------------- */
+
