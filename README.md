@@ -3,7 +3,7 @@
 **GlowSpace Clinic** is a modern and responsive landing page for a skincare and aesthetic clinic.  
 Designed to highlight professional treatments, services, and booking options – with elegance and clarity.
 
-![Screenshot](images/hero-section.png)
+
 
 ---
 
@@ -34,19 +34,12 @@ Designed to highlight professional treatments, services, and booking options –
 
 ---
 
-## 📸 Screenshots
-
-| Hero Section | Services | Treatments |
-|--------------|----------|------------|
-| ![hero](images/hero-section.png) | ![services](images/services.png) | ![treatments](images/treatments.png) |
-
----
 
 ## 📬 Contact
 
 For inquiries or feedback:
 
-- 📧 Email: zeinab.ali@example.com
+- 📧 Email: safaali8118@gmail.com
 - 🌐 [LinkedIn](https://www.linkedin.com/in/zeinab-ali-a2b89b204/)
 
 ---
