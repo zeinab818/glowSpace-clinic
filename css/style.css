@@ -63,6 +63,9 @@ nav .nav-link.sp{
 .hero{
     background-color: var(--main-bg-color);
 }
+.hero .container{
+    padding-top: 50px;
+}
 .hero .row .content h1{
     font-family: var(--main-font);
     font-size: 2.625rem;
