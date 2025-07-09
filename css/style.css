@@ -146,7 +146,7 @@ nav .nav-link.sp{
     font-size: 25px;
 } 
 .before .inner img{
-    height: 300px;
+    height: 250px;
 }
 
 
@@ -227,7 +227,7 @@ nav .nav-link.sp{
     box-shadow: none;
     border: none;
 }
-.contact .container form button{
+.contact .container .form button{
     background-color: var(--main-color);
     color: white;
     padding: 10px 40px;
@@ -239,7 +239,7 @@ nav .nav-link.sp{
 
 
 }
-.contact .container form button:hover{
+.contact .container .form button:hover{
     border: 1px solid var(--main-color);
     color: var(--main-color);
     background-color: white;
@@ -284,4 +284,44 @@ footer {
 }
 
 /* ---------------------end footer------------------------- */
+
+.message-sucess h1{
+    color: var(--main-color);
+    font-size: 30px;
+
+}
+
+.sucess{
+    background-color: rgba(0, 0, 0, 0.6);
+    
+}
+.message-sucess{
+    background-color: var(--main-bg-color);
+    height: 50vh;
+    text-align: center;
+    border-radius: 25px;
+    width: 50%;
+}
+.message-sucess i{
+    position: absolute;
+    top: 15px;
+    right: 12px;
+    font-size: 20px;
+    cursor: pointer;
+}
+#sucess {
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
 
